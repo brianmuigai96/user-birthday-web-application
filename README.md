@@ -1,4 +1,4 @@
-# AKAN~NAME~GENERATOR
+# AKAN-NAME-GENERATOR
 
 A form that generates your Akan name bulit with HTML, CSS, JAVA SCRIPT.
 
@@ -6,7 +6,7 @@ A form that generates your Akan name bulit with HTML, CSS, JAVA SCRIPT.
 
 ## Description
  Africans believe in culture and in many parts of Ghana, and elsewhere in West Africa, a person’s name is determined by the day of the week on which he/she was born. The form I have created enables you to know your Akan name.
- My project code is 
+ My project code is https://brianmuigai96.github.io/user-birthday-web-application/
 
  ## Author
  ** [BRIAN JOHN KIARIE MUIGAI]**
