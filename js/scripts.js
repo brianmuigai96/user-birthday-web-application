@@ -21,3 +21,15 @@ function UserData() {
     let dayIndex = birthIndex(day, month, year);
     return dayIndex;
 }
+function output(event) {
+    event.preventDefault();
+    let data = UserData();
+    if (document.getElementById("male").checked) {
+        alert("your akan name is " + maleNames[data]);
+
+    } else if (document.getElementById("female").checked) {
+        alert("your akan name is " + femaleNames[data]);
+    }
+    document.querySelector("form").reset()
+
+}
