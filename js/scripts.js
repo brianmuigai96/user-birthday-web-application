@@ -10,3 +10,14 @@ function birthIndex(d, m, yr) {
     let dayOfTheWeek = Math.floor((((cc / 4) - 2 * cc - 1) + ((5 * yy / 4)) + ((26 * (mm + 1) / 10)) + dd) % 7);
     return dayOfTheWeek;
 }
+
+function UserData() {
+    let day = document.getElementById("day").value;
+    let month = document.getElementById("month").value;
+    let year = document.getElementById("year").value;
+    if (day < 0 || day > 31 || month < 0 || month > 12) {
+        alert("Invalid day or month")
+    }
+    let dayIndex = birthIndex(day, month, year);
+    return dayIndex;
+}
