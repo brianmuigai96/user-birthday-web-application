@@ -33,3 +33,4 @@ function output(event) {
     document.querySelector("form").reset()
 
 }
+document.getElementById("submit").addEventListener("click", output)
