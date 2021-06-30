@@ -1,0 +1,29 @@
+body{
+    background-image: url("../img/1.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.form-input{
+  background-color: red;
+  align-items: center;
+  margin-left: 40%;
+  margin-top: 2%;
+  width: 220px;
+  height: 300px;
+  padding: 20px;
+}
+P {
+  color: purple;
+  font-size: 25px;
+}
+h1{
+  color: purple;
+  font-weight: bold
+}
+.description{
+  margin-left: 20%;
+  margin-top: 10%;
+  background-color: black;
+  width: 40%;
+
+}
